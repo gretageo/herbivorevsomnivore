@@ -1,0 +1,195 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://gretageo.github.io/herbivorevsomnivore/manifests/manifest4.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Herbivore vs omnivore excrements" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg",
+    "type" : "Canvas",
+    "height" : 2404,
+    "width" : 2124,
+    "label" : {
+      "en" : [ "Goat excrements" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Thin section flatbed scan taken from the I-GEOARCHive" ]
+    },
+    "rights" : "David Brönnimann",
+    "thumbnail" : [ {
+      "id" : "https://iiif.dasch.swiss/0838/1ywFF150EeR-QlDpu0Lz01B.jpx/full/531,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 601,
+      "width" : 531
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg/annotation-page/y3lbx0jdl6-mo2xxpsg",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/annotation/1ul80jegmxj-mo2xxpsg",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg",
+        "body" : {
+          "id" : "https://iiif.dasch.swiss/0838/1ywFF150EeR-QlDpu0Lz01B.jpx/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2404,
+          "width" : 2124,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "id" : "https://iiif.dasch.swiss/0838/1ywFF150EeR-QlDpu0Lz01B.jpx",
+            "type" : "ImageService3",
+            "protocol" : "http://iiif.io/api/image",
+            "profile" : "level2",
+            "width" : 2124,
+            "height" : 2404,
+            "sizes" : [ {
+              "width" : 1062,
+              "height" : 1202
+            }, {
+              "width" : 531,
+              "height" : 601
+            }, {
+              "width" : 266,
+              "height" : 301
+            }, {
+              "width" : 133,
+              "height" : 151
+            } ],
+            "tiles" : [ {
+              "width" : 1024,
+              "height" : 1024,
+              "scaleFactors" : [ 1, 2, 3, 4 ]
+            } ],
+            "extraFormats" : [ "tif", "jp2" ],
+            "preferredFormats" : [ "jpg", "tif", "jp2", "png" ],
+            "extraFeatures" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "sizeUpscaling" ]
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg/annotations/plw49n0ad8-mo2y5pqi",
+      "type" : "AnnotationPage",
+      "label" : {
+        "en" : [ "Inline annotations" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg/annotations/plw49n0ad8-mo2y5pqi/annotation/7rj3m0m50l9-mo2y60go",
+        "type" : "Annotation",
+        "motivation" : "tagging",
+        "target" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg#xywh=621,967,195,162",
+        "body" : {
+          "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg/annotations/plw49n0ad8-mo2y5pqi/annotation/7rj3m0m50l9-mo2y60go/html/en/vuaaun4veu-mo2y60go",
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "language" : "en",
+          "value" : "<p>Plant residues</p>"
+        }
+      }, {
+        "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg/annotations/plw49n0ad8-mo2y5pqi/annotation/qet26a8iu9h-mo2yeis0",
+        "type" : "Annotation",
+        "motivation" : "tagging",
+        "target" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg#xywh=178,1446,225,170",
+        "body" : {
+          "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/laj2tv3qtv-mo2xxpsg/annotations/plw49n0ad8-mo2y5pqi/annotation/qet26a8iu9h-mo2yeis0/html/en/nbunk4crsf-mo2yeis0",
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "language" : "en",
+          "value" : "<p>fibrous structuure</p>"
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/hqjx3vi1ol4-mo2y11k7",
+    "type" : "Canvas",
+    "height" : 1944,
+    "width" : 2152,
+    "label" : {
+      "en" : [ "Wildboar excrements" ]
+    },
+    "summary" : {
+      "en" : [ "Thin section flatbed scan taken from I-GEOARCHive" ]
+    },
+    "rights" : "David Brönnimann",
+    "thumbnail" : [ {
+      "id" : "https://iiif.dasch.swiss/0838/5FtSdkshqWT-xzjPdPGDtZk.jpx/full/538,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 486,
+      "width" : 538
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/hqjx3vi1ol4-mo2y11k7/annotation-page/zq3peizp2h-mo2y11k7",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/annotation/rnnzcfhfo4i-mo2y11k7",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/hqjx3vi1ol4-mo2y11k7",
+        "body" : {
+          "id" : "https://iiif.dasch.swiss/0838/5FtSdkshqWT-xzjPdPGDtZk.jpx/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1944,
+          "width" : 2152,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "id" : "https://iiif.dasch.swiss/0838/5FtSdkshqWT-xzjPdPGDtZk.jpx",
+            "type" : "ImageService3",
+            "protocol" : "http://iiif.io/api/image",
+            "profile" : "level2",
+            "width" : 2152,
+            "height" : 1944,
+            "sizes" : [ {
+              "width" : 1076,
+              "height" : 972
+            }, {
+              "width" : 538,
+              "height" : 486
+            } ],
+            "tiles" : [ {
+              "width" : 256,
+              "height" : 256,
+              "scaleFactors" : [ 1, 2 ]
+            } ],
+            "extraFormats" : [ "tif", "jp2" ],
+            "preferredFormats" : [ "jpg", "tif", "jp2", "png" ],
+            "extraFeatures" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "sizeUpscaling" ]
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/hqjx3vi1ol4-mo2y11k7/annotations/y1nv9hnie99-mo2y42q8",
+      "type" : "AnnotationPage",
+      "label" : {
+        "en" : [ "Inline annotations" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/hqjx3vi1ol4-mo2y11k7/annotations/y1nv9hnie99-mo2y42q8/annotation/j7qnhxttmun-mo2y4kui",
+        "type" : "Annotation",
+        "motivation" : "tagging",
+        "target" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/hqjx3vi1ol4-mo2y11k7#xywh=516,1200,256,189",
+        "body" : {
+          "id" : "https://example.org/wpy4v67z1yk-mo2xxilk/canvas/hqjx3vi1ol4-mo2y11k7/annotations/y1nv9hnie99-mo2y42q8/annotation/j7qnhxttmun-mo2y4kui/html/en/x8dzpa2dynp-mo2y4kui",
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "language" : "en",
+          "value" : "<p>bone</p>"
+        }
+      } ]
+    } ]
+  } ]
+}
