@@ -1,0 +1,15 @@
+{
+  "id" : "https://gretageo.github.io/herbivorevsomnivore/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in gretageo/herbivorevsomnivore project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://gretageo.github.io/herbivorevsomnivore/manifests/manifest4.json",
+    "label" : {
+      "en" : [ "Herbivore vs omnivore excrements" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
